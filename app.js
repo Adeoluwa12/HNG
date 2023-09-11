@@ -12,8 +12,8 @@ app.get('/api', (req, res) => {
   const currentUtcTime = new Date().toISOString();
 
   // GitHub repository URL and file URL
-  const githubRepoUrl = 'https://github.com/username/repo';
-  const githubFileUrl = `${githubRepoUrl}/blob/main/file_name.ext`;
+  const githubRepoUrl = 'https://github.com/Adeoluwa12/HNG';
+  const githubFileUrl = `https://github.com/Adeoluwa12/HNG/blob/main/app.js`;
 
   // Create the response JSON object
   const response = {
